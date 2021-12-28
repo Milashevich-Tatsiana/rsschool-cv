@@ -8,11 +8,11 @@ Email: milashevicht@gmail.com
 
 GitHub: Milashevich-Tatsiana
 
-## Education: 
+## Education 
 
 Belarussian state medical university, Pediatric Faculty, 2010-2016
 
-## Work experience: 
+## Work experience 
 1. Belarussian children's surgery center 2016-2019, Doctor radiologist
 2. Medical colledge of Minsk, 2019 - untill now, Teacher of medical disciplines
 
@@ -37,3 +37,4 @@ I have strong social and quick learnig skills.
     <form action="/people">
       <textarea rows="4" cols="30">Enter</textarea>
     </form>
+    ```
