@@ -1,7 +1,85 @@
-h1 {
-  font-size:30px;
+.container {
+  width: 1024px;
+  margin: 0 auto;
 }
 
-p {
-  color: red;
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline block;
+}
+
+.dark{
+  background-color: #212529;
+  color: #666d89;
+}
+
+.light {
+  background-color: #f2f2f2;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+nav {
+  padding: 5px;
+}
+
+.ghlogo {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-image: url(./images/Octocat.png);
+  background-size: contain;
+  background-position: center center;
+}
+
+.ghlogo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 3px solid #323746; 
+}
+
+a {
+  color: #666d89;
+}
+
+a:visited {
+  color: #666d89;
+}
+
+a:hover {
+  color: #4d7198;
+}
+
+header {
+  border-bottom: 3px solid #323746;
+}
+
+.section-with-foto {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+section {
+  padding: 10px;
+}
+
+section img {
+  margin-right: 40px;
 }
